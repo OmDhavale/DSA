@@ -23,7 +23,8 @@ int main(){
     int mid =0;
 
     while(start <= end){
-        mid = (start+end)/2;
+        //mid = (start+end)/2;
+        mid = start + (end-start)/2; //better practice in case of huge values start+end/2 will break
 
         if(arr[mid]==key){
             cout<<"Element "<<key<<" present at index: "<<mid;
