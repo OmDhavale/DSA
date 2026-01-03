@@ -15,3 +15,8 @@ int main(){
     }
     cout<<"Sum till "<<n<<"th element is: "<<arr[n];
 }
+
+/**
+*  Enter nth place: 8
+*  Sum till 8th element is: 21
+ */

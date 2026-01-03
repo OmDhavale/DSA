@@ -11,7 +11,7 @@ int main(){
         for(int j = i+1 ; j < size ; j++){
             if (arr[j] < arr[index]){
                 index = j;
-            }    
+            }
         }
         swap(arr[i],arr[index]);
     }

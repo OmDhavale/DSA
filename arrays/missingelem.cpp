@@ -6,7 +6,8 @@ int main(){
     int n = 6;
     /**
      * Here I am given with size as 6, but array is length 5
-     * number filling starts from 1.. and no repetition
+     * number filling starts from 1.. and no repetition..given
+     * in sequence from 1 to n
      * so 1 element would be missing
      * find that missing no.
      * missing elem = [ SUM OF ( 1 to N ) ]- SUM array elements
